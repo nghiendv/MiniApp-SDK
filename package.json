@@ -32,5 +32,21 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "description": "Dependency management & utils for the Super App Showcase",
+  "license": "MIT",
+  "homepage": "https://github.com/callstack/super-app-showcase",
+  "repository": "github:callstack/super-app-showcase",
+  "main": "index.js",
+  "files": [
+    "android",
+    "ios",
+    "lib",
+    "index.js",
+    "preset.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
